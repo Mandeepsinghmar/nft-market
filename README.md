@@ -63,6 +63,8 @@ npx hardhat run scripts/deploy.js --network localhost
 npm run dev
 ```
 
+5. Make a new file `.secret`, in which you have to add your metamask secret
+
 ### Configuration
 
 To deploy to Polygon test or main networks, update the configurations located in __hardhat.config.js__ to use a private key and, optionally, deploy to a private RPC like Infura.
